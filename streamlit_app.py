@@ -26,8 +26,8 @@ mse = mean_squared_error(y_test, predictions)
 r2 = r2_score(y_test, predictions)
 
 st.title("Tip Prediction")
-st.write("### Load `tips` Dataset from Seaborn")
-st.dataframe(df.head())
+
+
 
 st.write("### Model Performance Evaluation")
 st.write(f"- MAE: {mae:.2f}")
